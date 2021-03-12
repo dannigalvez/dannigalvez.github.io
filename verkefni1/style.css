@@ -1,0 +1,30 @@
+div{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.auglysing{
+    color: red;
+    animation: staekkar 2s;
+ 
+}
+
+@keyframes staekkar{
+    0%{transform:scale(0);}
+    25%{transform:scale(2);}
+    50%{transform:scale(0.5);}
+    75%{transform:scale(1.5);}
+    100%{transform:scale(1);}
+}
+
+@keyframes litur{
+    from{color:red;}
+    to{color:lime;}
+}
+
+@keyframes hringur{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
